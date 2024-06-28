@@ -1,0 +1,126 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    
+   
+     
+  }
+button {
+  border-radius: 20px;
+  background-color: #acdfad;
+  color: black;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+}
+button:hover{
+  background-color: #dba3d9;
+}
+
+.red-btn{
+  background-color: #e0c1df;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.zaregatisa-link {
+  color: #4CAF50;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.schedule {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.events {
+  width: 50vw;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 50vw;
+}
+
+
+
+
+
+.anons {
+  width: 30vw;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+/* Кнопка выпадающего списка */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-event {
+  display: flex;
+  justify-content: space-between;
+   
+}
+.cards-anons {
+  display: flex;
+  justify-content: space-between;
+}
+.anons-item {
+  width: 20vw;
+}
+
+.block-item {
+  width: 20vw;
+}
