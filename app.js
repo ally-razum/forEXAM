@@ -23,6 +23,6 @@ try {
 
 
   app.listen(PORT, () => {
-    console.log(`*** SATTVA -  Server started at ${PORT} port ***`);
+    console.log(`*** EXAM APP -  Server started at ${PORT} port ***`);
   });// прослушивание порта приложения
   

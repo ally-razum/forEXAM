@@ -5,7 +5,7 @@ module.exports = function Navbar ({user}) {
     return(
         <nav className='navbar '>
                         
-            <button  data-type="shadow"></button>
+            
             { user ? (
                 (user.role === "admin") ? (
                     <>                 

@@ -8,8 +8,8 @@ module.exports = function RegisterPage ({user}) {
             <div>
                 <h2>Зарегистрироваться:</h2>
                 <form name='regForm'>
-                        <input type="hidden" name="role" defaultValue={"user"}/><br />
-                        <input type="text" name="name" placeholder="ФИО" /><br />
+                        <input type="text" name="role" defaultValue={"user"}/><br />
+                        <input type="text" name="name" placeholder="Имя" /><br />
                         <input type="text" name="login" placeholder="логин"/><br />
                         <input type="email" name="email" placeholder="Email"/><br />
                         <input type="password" name="password" placeholder="пароль"/><br />
